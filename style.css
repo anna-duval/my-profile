@@ -1,0 +1,54 @@
+body {         
+	color: #545AA5;
+	background: #F9FCE3;
+	font-weight: 20;
+	text-align: CENTER;
+	font-family: monospace;
+	}
+
+	
+h1 {
+	font-family: monospace;, cursive;
+	font-weight: 100;
+	letter-spacing: 25px;
+	font-stretch: ultra-expanded;
+
+	}
+
+h2 { 
+	font-family: unset
+	font-weight: 120;
+	letter-spacing: 2px;
+	text-align: center;
+	}
+
+a: {
+	text-decoration: none;
+	color: black;
+	}
+
+a:hover { 
+	color: pink;
+	}
+
+div  {
+	background: white;                         
+	padding: 30px;                             
+	border-radius: 4px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+
+	}
+
+#img_me{
+	border-radius:50% ;
+	width: 200px;
+	height: 200px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+
